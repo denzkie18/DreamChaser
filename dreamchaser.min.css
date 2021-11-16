@@ -97,6 +97,7 @@ body{
   font-family: 'Pacifico', cursive;
   font-family: 'Poppins', sans-serif;
 }
+
 /*Screen for laptop and higher*/
 @media screen and (min-width:1000px){
    .grid-display{
@@ -143,6 +144,17 @@ ul li a{
 }
 ul li a:hover, a:active, a:focus{
   color: inherit;
+}
+
+.body-content{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+#description-content{
+  text-indent: 30px;
+}
+#body-cover{
+  width:100%;
 }
 
 /*Screen smaller*/
